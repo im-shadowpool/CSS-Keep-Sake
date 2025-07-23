@@ -1,6 +1,6 @@
 # 🎨 CSS Keep Sake
 
-Welcome to **CSS Keep Sake** — a personal collection of handcrafted CSS components and UI elements. This repository serves as a visual archive to showcase all my creative and functional front-end work, built with pure CSS and HTML.
+Welcome to **CSS Keep Sake**, a personal collection of handcrafted CSS components and UI elements. This repository serves as a visual archive to showcase all my creative and functional front-end work, built with pure CSS and HTML.
 
 ---
 
