@@ -15,6 +15,7 @@ Beautifully styled buttons with hover effects, animations, and modern UI trends.
 | Arrow Color Fill Button Animated  | ![Wave Button Preview](/Previews/Arrow%20Color%20Fill%20Button%20Animated.png) | [View Demo](https://codepen.io/shadowpool/pen/PwPPwWL) |
 | Water Waves Animated Button | ![Gradient Glow Button](/Previews/Water%20Waves%20Animated%20Button.png) | [View Demo](https://codepen.io/shadowpool/pen/YPyyEzq) |
 | Arrow Circle Fill Animated Button | ![Gradient Glow Button](/Previews/Arrow%20Circle%20Fill%20Animated%20Button.png) | [View Demo](https://codepen.io/shadowpool/pen/myePbda) |
+| Animated Fill Buttons Styles | ![Gradient Glow Button](/Previews/Animated%20Fill%20Buttons%20Styles.png) | [View Demo](https://codepen.io/shadowpool/pen/VYvORJX) |
 
 ---
 ### ✅ Cards Collection
