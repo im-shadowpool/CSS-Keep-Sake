@@ -1,0 +1,530 @@
+    <div class="section-container">
+
+         <div class="ewo-accordion-wrapper">
+      <div
+        class="ewo-accordion-container-item collapsed"
+        id="ewo-accordion-container-item-1"
+        onclick="toggleAccordion(this)"
+      >
+        <div class="ewo-accordion-image-box" style="
+            background-image: url('https://images.unsplash.com/photo-1535713875002-d1d0cf377fde');
+          ">
+          <div class="ewo-accordion-image-box-text">
+            <h3>Yashwanth Reddy</h3>
+            <p>Financial Adviser</p>
+          </div>
+        </div>
+        <div class="ewo-accordion-content-box">
+          <p>
+            <div class="ewo-accordion-content-box__text">
+ <span><b>Lorem ipsum dolor sit amet, consectetur adipiscing</b></span>
+
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+<span>CTA Button</span>
+</div>
+          </p>
+        </div>
+      </div>
+      <div
+        class="ewo-accordion-container-item collapsed"
+        id="ewo-accordion-container-item-2"
+        onclick="toggleAccordion(this)"
+      >
+        <div
+          class="ewo-accordion-image-box"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb');
+          "
+        >
+          <div class="ewo-accordion-image-box-text">
+            <h3>Rajkumar Rao</h3>
+            <p>Financial Adviser | Director</p>
+          </div>
+        </div>
+        <div class="ewo-accordion-content-box">
+          <p>
+            <div class="ewo-accordion-content-box__text">
+ <span><b>Lorem ipsum dolor sit amet, consectetur adipiscing</b></span>
+
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+<span>CTA Button</span>
+</div>
+          </p>
+        </div>
+      </div>
+      <div
+        class="ewo-accordion-container-item collapsed"
+        id="ewo-accordion-container-item-3"
+        onclick="toggleAccordion(this)"
+      >
+        <div
+          class="ewo-accordion-image-box"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1629649536405-664cc1a973fb');
+          "
+        >
+          <div class="ewo-accordion-image-box-text">
+            <h3>Praneeth Goud</h3>
+            <p>Financial Adviser | Director</p>
+          </div>
+        </div>
+        <div class="ewo-accordion-content-box">
+          <p>
+    <div class="ewo-accordion-content-box__text">
+ <span><b>Lorem ipsum dolor sit amet, consectetur adipiscing</b></span>
+
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+<span>CTA Button</span>
+</div>
+          </p>
+        </div>
+      </div>
+    </div>
+ 
+      
+</div>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+
+.section-container{
+  max-width: 1380px;
+}
+
+.ewo-accordion-content-box__text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    span{
+        color: #6b6b6b;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.36px;
+        transition: all 0.8s ease-out;
+    }
+}
+
+.ewo-services-cards-slides-list {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 96px;
+    padding: 24px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 48px;
+    background: #fff;
+    overflow: hidden;
+    border: none;
+}
+
+.ewo-services-cards-slides-list-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    z-index: 1;
+    transform: translateY(0);
+    transition: all 0.8s ease-out;
+}
+
+.ewo-services-cards-slides-list-container svg {
+    display: flex;
+    width: 48px;
+
+    path {
+        transition: all 0.8s ease-out;
+        fill: #89a84f;
+    }
+}
+
+.ewo-services-cards-slides-list-container p {
+    color: #090909;
+    font-family: Sora;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    transition: all 0.8s ease-out;
+    width: 100%;
+
+    span {
+        color: #6b6b6b;
+        font-family: Sora;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.36px;
+        transition: all 0.8s ease-out;
+    }
+}
+
+.ewo-accordion-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    gap: 16px;
+    overflow: hidden;
+}
+
+.ewo-accordion-container-item.expanded {
+    width: 950px;
+}
+
+.ewo-accordion-container-item {
+    display: flex;
+    width: 180px;
+    align-items: flex-end;
+    gap: 48px;
+    flex-shrink: 0;
+    transition: all 1s ease-out;
+}
+
+.ewo-accordion-image-box {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    height: 450px;
+    padding: 32px 24px;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    box-shadow: 2px 8px 30px 0 rgba(112, 144, 176, 0.06);
+    background: url("https://images.unsplash.com/photo-1535713875002-d1d0cf377fde") lightgray 50% / cover no-repeat;
+    transition: all 1s ease-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.ewo-accordion-image-box-text {
+    opacity: 1;
+    transition: all 1s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    white-space: nowrap;
+}
+
+.ewo-accordion-image-box-text h3 {
+    color: white;
+    text-align: center;
+    font-family: Sora;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.96px;
+    padding: 0;
+    margin: 0;
+}
+
+.ewo-accordion-image-box-text p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.ewo-accordion-image-box::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0) 44.54%,
+            rgba(0, 0, 0, 0.6) 62.93%);
+    opacity: 0.8;
+    transition: opacity 0.5s ease-out;
+    z-index: 1;
+}
+
+.ewo-accordion-container-item:hover .ewo-accordion-image-box::before {
+    opacity: 1;
+}
+
+.ewo-accordion-content-box {
+    flex: 0 0 542px;
+    /* Fixed width for content box */
+    opacity: 1;
+    transition: opacity 1s ease;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ewo-accordion-content-box p {
+    color: #6b6b6b;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Collapsed state */
+.ewo-accordion-container-item.collapsed .ewo-accordion-image-box {
+    width: 135px;
+}
+
+.ewo-accordion-container-item.collapsed .ewo-accordion-content-box {
+    opacity: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    transition: opacity 1s ease, width 0s ease 0.4s, max-height 0.8s ease;
+}
+
+/* Active/expanded state */
+.ewo-accordion-container-item.expanded .ewo-accordion-image-box {
+    width: 316px;
+}
+
+.ewo-accordion-container-item.collapsed:not(.expanded) .ewo-accordion-image-box-text {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.ewo-accordion-container-item.expanded .ewo-accordion-content-box {
+    opacity: 1;
+    width: 542px;
+    transition: opacity 0.8s ease 0.2s, width 0s ease, max-height 0.8s ease;
+}
+
+/* 1240px to 1024px */
+@media (max-width: 1270px) and (min-width: 1024px) {
+    .ewo-accordion-container-item.expanded {
+        width: 815px;
+    }
+
+    .ewo-accordion-container-item.expanded .ewo-accordion-image-box {
+        width: 260px;
+    }
+
+    .ewo-accordion-container-item.collapsed .ewo-accordion-image-box {
+        width: 140px;
+    }
+
+    .ewo-accordion-container-item {
+        width: 140px;
+    }
+
+    .ewo-accordion-content-box {
+        flex: 0 0 500px;
+    }
+}
+
+/* 1390px to 1239px */
+@media (max-width: 1390px) and (min-width: 1271px) {
+    .ewo-accordion-container-item.expanded {
+        width: 906px;
+    }
+
+    .ewo-accordion-container-item {
+        gap: 24px;
+    }
+}
+
+/* Above 1391px to any max screen */
+@media (min-width: 1391px) {
+    .ewo-accordion-container-item.expanded {
+        width: 975px;
+    }
+}
+
+/* Tab */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .ewo-accordion-wrapper{
+        overflow: scroll;
+        padding-bottom: 10px;
+    }
+    .ewo-accordion-container-item.collapsed .ewo-accordion-image-box {
+        width: 120px;
+    }
+
+    .ewo-accordion-container-item {
+        width: 120px;
+        overflow: hidden;
+    }
+
+    .ewo-accordion-container-item.expanded {
+        width: 810px;
+    }
+
+    .ewo-accordion-container-item.expanded .ewo-accordion-image-box {
+        width: 220px;
+    }
+
+    .ewo-accordion-container-item {
+        gap: 20px;
+    }
+
+    .ewo-accordion-content-box {
+        flex: 0 0 530px;
+    }
+
+    .ewo-accordion-container-item.expanded .ewo-accordion-content-box {
+        width: 530px;
+    }
+
+    .ewo-accordion-image-box {
+        align-self: self-start;
+    }
+}
+
+/* Mobile: stack items vertically instead of side-by-side */
+@media (max-width: 768px) {
+    .ewo-accordion-wrapper {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .ewo-accordion-container-item {
+        width: 100% !important;
+        flex-direction: column;
+        gap: 0;
+        transition: none;
+        /* No width animation */
+    }
+
+    /* Image box stays full width */
+    .ewo-accordion-image-box {
+        width: 100% !important;
+        height: 312px;
+        border-radius: 12px;
+        background-position: center -25px;
+    }
+
+    /* Content box collapses with height animation */
+    .ewo-accordion-content-box {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: max-height 0.5s ease, opacity 0.4s ease, min-height 0.5s ease;
+    }
+
+    /* Expanded state for mobile */
+    .ewo-accordion-container-item.expanded .ewo-accordion-content-box {
+        margin: 24px 0;
+        width: 100% !important;
+        max-height: fit-content;
+        opacity: 1;
+    }
+
+    .ewo-accordion-container-item.expanded#ewo-accordion-container-item-1 .ewo-accordion-content-box {
+        max-height: 550px;
+        min-height: 550px;
+    }
+
+    .ewo-accordion-container-item.expanded#ewo-accordion-container-item-2 .ewo-accordion-content-box {
+        max-height: 600px;
+        min-height: 600px;
+    }
+
+    .ewo-accordion-container-item.expanded#ewo-accordion-container-item-3 .ewo-accordion-content-box {
+        max-height: 550px;
+        min-height: 550px;
+    }
+
+    /* Remove horizontal effects */
+    .ewo-accordion-container-item.expanded,
+    .ewo-accordion-container-item.collapsed {
+        width: 100% !important;
+    }
+
+    .ewo-accordion-container-item.collapsed .ewo-accordion-image-box {
+        height: 185px;
+    }
+
+    .ewo-accordion-container-item.expanded .ewo-accordion-image-box {
+        height: 312px;
+    }
+
+    .ewo-accordion-container-item:hover .ewo-accordion-image-box::before {
+        opacity: 0;
+    }
+
+    .ewo-accordion-image-box::before {
+        opacity: 0;
+    }
+
+    .ewo-accordion-container-item.expanded .ewo-accordion-image-box::before {
+        opacity: 0.6;
+    }
+
+    .ewo-accordion-container-item.expanded .ewo-accordion-image-box-text {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+</style>
+
+<script>
+    function toggleAccordion(element) {
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    const allItems = document.querySelectorAll(".ewo-accordion-container-item");
+
+    if (isMobile) {
+      // Mobile: vertical expand/collapse
+      const isExpanded = element.classList.contains("expanded");
+      allItems.forEach(item => item.classList.remove("expanded"));
+      if (!isExpanded) {
+        element.classList.add("expanded");
+      }
+    } else {
+      // Desktop: original horizontal behavior
+      if (element.classList.contains("expanded")) return;
+      allItems.forEach(item => {
+        item.classList.remove("expanded");
+        item.classList.add("collapsed");
+      });
+      element.classList.remove("collapsed");
+      element.classList.add("expanded");
+    }
+  }
+
+  // On page load, expand first one on mobile
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      const firstItem = document.querySelector(".ewo-accordion-container-item");
+      if (firstItem) {
+        firstItem.classList.add("expanded");
+      }
+    } else {
+      const lastItem = document.querySelector(".ewo-accordion-container-item:last-child");
+      if (lastItem) {
+        lastItem.classList.add("expanded");
+      }
+    }
+  });
+  </script>
